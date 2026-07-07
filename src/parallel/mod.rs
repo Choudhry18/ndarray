@@ -136,9 +136,7 @@
 //! ```
 
 #[allow(unused_imports)] // used by rustdoc links
-use crate::iter::{
-    AxisChunksIter, AxisChunksIterMut, AxisIter, AxisIterMut, ExactChunks, ExactChunksMut,
-};
+use crate::iter::{AxisChunksIter, AxisChunksIterMut, AxisIter, AxisIterMut, ExactChunks, ExactChunksMut};
 #[allow(unused_imports)] // used by rustdoc links
 use crate::{ArcArray, Array, ArrayBase, ArrayView, ArrayViewMut, Zip};
 
